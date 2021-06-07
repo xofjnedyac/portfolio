@@ -75,3 +75,15 @@ padding: 5px 10px 5px 10px;
 border-radius: 30px;
 font-size: 17px;
 border: solid rgb(197, 197, 197) 3px;}
+
+#about {display: flex;
+padding: 100px 200px 0 200px;
+font-family: 'raleway';
+font-weight: 500;
+font-size: 40px;
+font-style: italic;}
+
+#profile-pic {height: 325px;
+border-radius: 50%;
+padding: 0 35px 0 0;
+}

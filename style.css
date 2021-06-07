@@ -1,8 +1,9 @@
 html, body{padding: 0 0 0 0;
 margin: 0 0 0 0;
-position: absolute;}
+position: absolute;
+overflow: scroll;}
 #background{
-filter: grayscale(75%) blur(2px) brightness(1);
+filter: grayscale(75%) blur(1px) brightness(1);
 position: absolute;
 margin: 0;
 padding: 0;
@@ -10,8 +11,7 @@ object-fit: cover;
 height: 100vh;
 width: 100vw;
 }
-#overlay{background-color: rgba(43, 159, 226, 0.75);
-color: black;
+#overlay{background: linear-gradient( rgba(112, 58, 114, 0.75), rgba(245, 37, 134, 0.75));
 height: 100vh;
 width: 100vw;
 position: absolute;
@@ -24,7 +24,8 @@ font-size: 70px;
 margin: 0;
 padding: 0;
 font-family:'Raleway';
-font-weight: 700;}
+font-weight: 700;
+top: 40%;}
 h2 {color: white;
 position: absolute;
 width: 100%;
@@ -34,14 +35,43 @@ padding: 0;
 font-family:'Raleway';
 font-weight: 500;
 font-style: italic;
+top: 52%;
 }
 #welcome-section {height: 100vh;
 width: 100vw;
 position: relative;}
 
 #navbar {position: fixed;
-color: black;
 top: 0;
-width: 100%;
+width: 100vw;
 z-index: 1;
-text-align: center;}
+text-align: center;
+font-family:'Raleway';
+font-weight: 600;
+padding: 20px 0 0 0;
+margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+ a:visited {
+    text-decoration: none;
+    
+}
+ a:hover {
+    text-decoration: underline;
+    
+}
+a:active {
+    text-decoration: underline;
+    
+}
+
+.button {background-color: white;
+color: black;
+padding: 5px 10px 5px 10px;
+border-radius: 30px;
+font-size: 17px;
+border: solid rgb(197, 197, 197) 3px;}
